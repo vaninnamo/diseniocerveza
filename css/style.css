@@ -31,3 +31,21 @@
 #imagen1{
 	width: 100%;
 }
+
+.listaSliderCard{
+	height: 230px !important;
+}
+
+.sliderCard{
+	height: 250px;
+}
+
+.slider .indicators{
+	position: relative;
+	margin-top: 3px;
+	height: 30px;
+}
+
+.slider .indicators .indicator-item.active{
+	background: rgba(199,123,0,0.95);	
+}
