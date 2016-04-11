@@ -25,6 +25,12 @@
 .subtitulosParallax{
 	margin-left: 25%;
 }
+#historia, #cervezas{
+	height: 60px;
+}
+#imagen1{
+	width: 100%;
+}
 
 .listaSliderCard{
 	height: 230px !important;
