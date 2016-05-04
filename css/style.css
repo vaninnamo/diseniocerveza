@@ -1,3 +1,7 @@
+@font-face {
+    font-family: fuentesTitulos;
+    src: url('../font/Dancing.otf');
+}
 .orange-degrade{
 	background: rgba(209,195,0,1);
 	background: -moz-linear-gradient(left, rgba(209,195,0,1) 0%, rgba(199,123,0,0.97) 67%, rgba(184,113,0,0.96) 86%, rgba(199,123,0,0.95) 100%);
@@ -20,12 +24,15 @@
 
 .titulosParallax{
 	margin-left: 9%;
+	font-family: 'fuentesTitulos';
 }
 
 .subtitulosParallax{
 	margin-left: 25%;
+	font-family: 'fuentesTitulos';
+
 }
-#historia, #cervezas{
+#historia, #cervezas, #gastronomia, #salud, #curiosidades {
 	height: 60px;
 }
 #imagen1{
@@ -48,4 +55,14 @@
 
 .slider .indicators .indicator-item.active{
 	background: rgba(199,123,0,0.95);	
+}
+
+.caption h3, .caption h5{
+	font-family: 'fuentesTitulos';
+}
+
+#historiaCuadro{
+	border-radius: 20px;
+	background-color: orange;
+	margin: 1%;
 }
